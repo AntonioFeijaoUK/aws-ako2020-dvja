@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        // original - git 'https://github.com/ajlanghorn/dvja.git'
+        //  original - git 'https://github.com/ajlanghorn/dvja.git'
         git 'https://github.com/AntonioFeijaoUK/aws-ako2020-dvja.git'
         sh "mvn clean package"
       }
